@@ -6,7 +6,7 @@
 }
 body{
     
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Signika Negative', sans-serif;
     
 }
 .bg-img {
@@ -30,7 +30,7 @@ body{
       color: black;
       font-weight: bold;
       position: absolute;
-      left: 20px;
+      left: 10px;
       top: 10px;
       width: 350px;
   }
@@ -69,27 +69,26 @@ body{
   
   /* main section */
   .main{
-      text-align: center;
-      color: ivory;
-      font-weight: bold;
-      font-size: 1.2em;
+      text-align: right;
+      color:rgba(0, 0, 0, 0.8);
+      font-weight: bolder;
+      font-size: 1.4em;
       position: absolute;
       top: 40vh;
-      left: 50vw;
-      transform: translateX(-50%);
+      right: 5vw;
   }
   /* Donate Button */
   .donateButton{
-    background-color:lemonchiffon;
+    background-color:royalblue;
     width: 150px;
     height: 50px;
     color: black;
     font-weight: bold;
-    font-size: large;
+    font-size: larger;
     border-radius: 20px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5), 0px 10px 30px rgba(255,255,255,0.5);
     text-align: center;
-    padding: 10px;
+    padding: 9px;
     margin: auto;
     margin-top: 50px;
     transition: 0.5s;
@@ -97,9 +96,13 @@ body{
   .donateButton:hover{
       cursor: pointer;
       transform: scale(1.1);
+      background-color: rebeccapurple;
+      color: whitesmoke;
   }
   .donateButton:active{
       transform: scale(0.8);
+      background-color: rebeccapurple;
+      color: whitesmoke;
   }
 
   .modal{
